@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Form from './components/Form';
+import BaiTapQuanLSinhVien from './components/BaiTapQuanLSinhVien';
 
 function App() {
   return (
-    <div className="App">
-      <Form />
+    <div>
+      <BaiTapQuanLSinhVien />
     </div>
   );
 }
